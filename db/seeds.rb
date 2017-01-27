@@ -11,9 +11,11 @@ movies =[
 {title: "Victor", release_date: '25-9-2015'}
 ]
 
+actor =[
+{name: "Angelina Jolie" ,  release_date: '25-12-2015'},
+{name: "Victor", release_date: '25-9-2015'}]
 
 movies.each do |movie|
     Movie.create!(movie)
-
 end
 
